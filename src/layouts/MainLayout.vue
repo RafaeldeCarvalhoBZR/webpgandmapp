@@ -9,12 +9,12 @@
           icon="menu"
           label="Menu"
           @click="toggleLeftDrawer"
-        /> 
+        />
       </q-toolbar>
       <div style="height:182px">
-        
+
         <div class="text-h3 absolute-bottom q-pa-sm">Love</div>
-        <div class="text-subtitle5 absolute-bottom-right q-pa-sm"> 
+        <div class="text-subtitle5 absolute-bottom-right q-pa-sm">
           {{ todaysDate }}</div>
       </div>
       <q-img src="imgs\sunflowerfield.jpg"
@@ -28,10 +28,10 @@
         :breakpoint="600"
       >
         <q-scroll-area
-          style="height: calc(100% - 232px); 
-          margin-top: 232px; 
+          style="height: calc(100% - 232px);
+          margin-top: 232px;
           border-right: 1px solid #ddd">
-          
+
           <q-list padding>
             <q-item to='/' exact clickable v-ripple>
               <q-item-section avatar>
@@ -72,11 +72,11 @@
               </q-item-section>
             </q-item>
           </q-list>
-          
+
           <div :style="{color:'#f67e7e'}" class="absolute-bottom q-pa-md">
-            “Amar é admirar com o coração. 
-             Admirar é amar com o cérebro.”  
-             Theophile Gautier.  
+            “Amar é admirar com o coração.
+             Admirar é amar com o cérebro.”
+             Theophile Gautier.
           </div>
         </q-scroll-area>
 
@@ -86,7 +86,7 @@
           style="height: 232px">
           <div class="absolute-bottom bg-transparent">
             <div class="text-weight-bold text-center">
-              A & J</div>
+              </div>
             <!-- <div class="text-weight-bold">
               ???????????????????</div> -->
           </div>
